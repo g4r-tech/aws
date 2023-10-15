@@ -46,24 +46,56 @@ Over the years, AWS's impact on modern infrastructure and software deployment ha
 ### 🛠 Tools & Services
 
 **Compute**
-- [Amazon EC2](https://aws.amazon.com/ec2/) - Secure and resizable compute capacity in the cloud.
-- [AWS Lambda](https://aws.amazon.com/lambda/) - Run code without thinking about servers.
+
+Instances (Virtual Machines)
+- [**Amazon EC2**](https://aws.amazon.com/ec2/): Secure and resizable compute capacity (virtual servers) in the cloud.
+- [**Amazon EC2 Spot**](https://aws.amazon.com/ec2/spot/): Run fault-tolerant workloads for up to 90% off.
+- [**Amazon EC2 Autoscaling**](https://aws.amazon.com/ec2/autoscaling/): Automatically manage compute capacity based on demand.
+- [**Amazon Lightsail**](https://aws.amazon.com/lightsail/): A straightforward cloud platform for building applications or websites.
+- [**AWS Batch**](https://aws.amazon.com/batch/): Manage batch processing at any scale.
+
+Containers
+- [**Amazon ECS (Elastic Container Service)**](https://aws.amazon.com/ecs/): Reliable way to run containerized applications.
+- [**Amazon ECS Anywhere**](https://aws.amazon.com/ecs/anywhere/): Run ECS containers on customer-managed infrastructure.
+- [**Amazon ECR (Elastic Container Registry)**](https://aws.amazon.com/ecr/): Store, manage, and deploy container images.
+- [**Amazon EKS (Elastic Kubernetes Service)**](https://aws.amazon.com/eks/): Fully managed Kubernetes service.
+- [**Amazon EKS Anywhere**](https://aws.amazon.com/eks/anywhere/): Operate Kubernetes clusters on self-managed infrastructure.
+- [**AWS Fargate**](https://aws.amazon.com/fargate/): Serverless compute for containers.
+- [**AWS App Runner**](https://aws.amazon.com/apprunner/): Build and deploy containerized apps with a managed service.
+
+Serverless
+- [**AWS Lambda**](https://aws.amazon.com/lambda/): Execute code without managing servers.
+  
+Edge & Hybrid
+- [**AWS Outposts**](https://aws.amazon.com/outposts/): Offer AWS infrastructure and services on-premises for a consistent hybrid experience.
+- [**AWS Snowball Edge**](https://aws.amazon.com/snowball/): Process data in rugged or disconnected environments.
+- [**AWS Wavelength**](https://aws.amazon.com/wavelength/): Provide ultra-low latency for 5G devices.
+- [**VMware Cloud on AWS**](https://aws.amazon.com/vmware/): Preferred service for vSphere workloads for cloud extension and migration.
+- [**AWS Local Zones**](https://aws.amazon.com/local/zones/): Operate latency-sensitive applications closer to end-users.
 
 **Storage**
-- [Amazon S3](https://aws.amazon.com/s3/) - Scalable storage in the cloud.
-- [Amazon EBS](https://aws.amazon.com/ebs/) - Block storage for EC2.
+- [Amazon S3](https://aws.amazon.com/s3/) - Scalable cloud storage.
+- [Amazon EBS](https://aws.amazon.com/ebs/) - Persistent block storage for EC2.
+- [Amazon Glacier](https://aws.amazon.com/glacier/) - Low-cost archival storage.
+- [AWS Elastic File System (EFS)](https://aws.amazon.com/efs/) - Scalable file storage for EC2.
 
 **Databases**
-- [Amazon RDS](https://aws.amazon.com/rds/) - Relational database service.
-- [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) - NoSQL database service.
+- [Amazon RDS](https://aws.amazon.com/rds/) - Managed relational database service.
+- [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) - Managed NoSQL database service.
+- [Amazon ElastiCache](https://aws.amazon.com/elasticache/) - In-memory cache service.
+- [Amazon Redshift](https://aws.amazon.com/redshift/) - Data warehousing service.
 
 **Networking**
-- [Amazon VPC](https://aws.amazon.com/vpc/) - Isolated cloud resources.
-- [AWS Direct Connect](https://aws.amazon.com/directconnect/) - Dedicated network connection.
+- [Amazon VPC](https://aws.amazon.com/vpc/) - Virtual private cloud.
+- [AWS Direct Connect](https://aws.amazon.com/directconnect/) - Dedicated network connection to AWS.
+- [Elastic Load Balancing](https://aws.amazon.com/elasticloadbalancing/) - Distribute incoming traffic.
+- [Amazon Route 53](https://aws.amazon.com/route53/) - Scalable domain name system.
 
 **Developer Tools**
-- [AWS CodeBuild](https://aws.amazon.com/codebuild/) - Build and test code.
-- [AWS CodeDeploy](https://aws.amazon.com/codedeploy/) - Automate code deployments.
+- [AWS CodeBuild](https://aws.amazon.com/codebuild/) - Build and test code in AWS.
+- [AWS CodeDeploy](https://aws.amazon.com/codedeploy/) - Streamlined code deployments.
+- [AWS CodePipeline](https://aws.amazon.com/codepipeline/) - Continuous integration and continuous delivery.
+- [AWS Cloud9](https://aws.amazon.com/cloud9/) - Cloud IDE for writing, running, and debugging code.
 
 > [🔗 View All Tools & Services](#)
 
